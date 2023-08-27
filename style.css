@@ -1,0 +1,29 @@
+*{
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	list-style: none;
+	box-sizing: border-box;
+}
+
+.web video {
+	width: 100%;
+}
+
+.hp {
+	display: none;
+}
+
+@media (max-width: 858px) {
+	.web {
+		display: none;
+	}
+
+	.hp {
+		display: block;
+	}
+
+	.hp video {
+		width: 100%;
+	}
+}
