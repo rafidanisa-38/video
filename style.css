@@ -14,7 +14,7 @@
 	display: none;
 }
 
-@media (max-width: 858px) {
+@media (max-width: 1080px) {
 	.web {
 		display: none;
 	}
